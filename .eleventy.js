@@ -72,7 +72,8 @@ module.exports = function(eleventyConfig) {
     // 出力設定
     dir: {
       input: 'src',
-      output: '_site'
+      // output: '_site'
+      output: 'docs'
     },
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',

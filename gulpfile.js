@@ -23,7 +23,8 @@ const paths = {
   dist: '_site', // 書き出し用
   style: {
     src: 'src/assets/sass', // 開発用のSass
-    dist: '_site/assets/css' // 書き出し用のCSS
+    // dist: '_site/assets/css' // 書き出し用のCSS
+    dist: 'docs/assets/css' // 書き出し用のCSS
   }
 }
 
