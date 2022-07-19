@@ -6,7 +6,7 @@ module.exports = {
   // meta description
   description: "11tyとGulp（Sass）で始めるスターターセット",
   // URL（最後の / は含めない）
-  url: "https://kayokoyoshioka-miyagawainsatsu.github.io/latele-11ty-gulp-starter/",
+  url: "https://kayokoyoshioka-miyagawainsatsu.github.io/latele-11ty-gulp-starter",
   // 文字コード
   charset: "utf-8",
   // 言語
