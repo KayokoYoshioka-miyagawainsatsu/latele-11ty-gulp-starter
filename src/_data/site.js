@@ -1,12 +1,12 @@
 module.exports = {
   // サイト名
-  title: "新規でサイトを作るやつ",
+  title: "latele-11ty-gulp-starterテスト",
   // トップページのみ付与される簡易的な説明文
   catch: " - サイトの簡易的な説明文",
   // meta description
   description: "11tyとGulp（Sass）で始めるスターターセット",
   // URL（最後の / は含めない）
-  url: "https://example.com",
+  url: "https://kayokoyoshioka-miyagawainsatsu.github.io/latele-11ty-gulp-starter/",
   // 文字コード
   charset: "utf-8",
   // 言語

@@ -21,10 +21,11 @@ const del = require('del') // 不要ファイル削除
 const paths = {
   src: 'src', // 開発用
   dist: '_site', // 書き出し用
+  dist: 'docs', // 書き出し・ // Github Pages 用
   style: {
     src: 'src/assets/sass', // 開発用のSass
-    // dist: '_site/assets/css' // 書き出し用のCSS
-    dist: 'docs/assets/css' // 書き出し用のCSS
+    dist: '_site/assets/css', // 書き出し用のCSS
+    dist: 'docs/assets/css' // 書き出し・ // Github Pages 用のCSS
   }
 }
 
