@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>2022年07月19日 - 新規でサイトを作るやつ</title>
+    <meta name="description" content="11tyとGulp（Sass）で始めるスターターセット" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta property="og:title" content="2022年07月19日 - 新規でサイトを作るやつ" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://example.com/info/page-2/" />
+    <meta property="og:image" content="https://example.com/assets/img/blog/share/ogp.jpg" />
+    <meta property="og:site_name" content="新規でサイトを作るやつ" />
+    <meta property="og:description" content="11tyとGulp（Sass）で始めるスターターセット" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="icon" href="/assets/img/favicon.ico" />
+
+    <link rel="stylesheet" href="/assets/css/s.css" />
+  </head>
+  <body class="page-info">
+    <div id="skipLink" class="skipLink"><a href="#contents">ページの本文へ</a></div>
+
+    <div id="page" class="page">
+      <header class="header">
+        <div class="header__inner">
+          <div class="logo">
+            <p class="logo__item">
+              <a href="/">logo</a>
+            </p>
+          </div>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item -top"><a class="nav__link" href="/">トップ</a></li>
+              <li class="nav__item -about"><a class="nav__link" href="/about/">アバウト</a></li>
+              <li class="nav__item -info"><a class="nav__link" href="/info/">お知らせ</a></li>
+              <li class="nav__item -contact"><a class="nav__link" href="/contact/">お問い合わせ</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div id="contents" class="contents">
+        <section>
+          <h2 class="title -style01">お知らせ</h2>
+          <p>_data/news.jsonから取得したデータのページ分割テスト</p>
+          <h3 class="title -style02">2021年09月02日</h3>
+          <p>毎日寒い日が続いていますが風邪を引かないように気をつけましょう。いい天気になるといいね。</p>
+          <h3 class="title -style02">2021年09月03日</h3>
+          <p>お知らせのテスト用のデータです。</p>
+        </section>
+
+        <nav aria-labelledby="my-pagination">
+          <h2 class="title -style01" id="my-pagination">ページネーション</h2>
+          <ol>
+            <li><a href="/info/">First</a></li>
+            <li><a href="/info/">Previous</a></li>
+            <li><a href="/info/">1</a></li>
+            <li><a href="/info/page-2/" aria-current="page">2</a></li>
+            <li>Next</li>
+            <li>Last</li>
+          </ol>
+        </nav>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__inner">
+          <ul class="footer__menu">
+            <li><a href="/">トップ</a></li>
+            <li><a href="/privacy/">プライバシーポリシー</a></li>
+            <li><a href="/sitemap/">サイトマップ</a></li>
+          </ul>
+          <p class="footer__copyright" lang="en"><small>Copyright © 2022 siteName All Right Reserved.</small></p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="/assets/js/main.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxxxx-x"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-xxxxxxxx-x");
+    </script>
+  </body>
+</html>

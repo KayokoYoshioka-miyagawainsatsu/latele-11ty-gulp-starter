@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>新規でサイトを作るやつ - サイトの簡易的な説明文</title>
+    <meta name="description" content="11tyとGulp（Sass）で始めるスターターセット" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta property="og:title" content="新規でサイトを作るやつ - サイトの簡易的な説明文" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:image" content="https://example.com/assets/img/blog/share/ogp.jpg" />
+    <meta property="og:site_name" content="新規でサイトを作るやつ" />
+    <meta property="og:description" content="11tyとGulp（Sass）で始めるスターターセット" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="icon" href="/assets/img/favicon.ico" />
+
+    <link rel="stylesheet" href="/assets/css/s.css" />
+  </head>
+  <body class="page-top">
+    <div id="skipLink" class="skipLink"><a href="#contents">ページの本文へ</a></div>
+
+    <div id="page" class="page">
+      <header class="header">
+        <div class="header__inner">
+          <div class="logo">
+            <h1 class="logo__item">
+              <a href="/">logo</a>
+            </h1>
+          </div>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item -top"><a class="nav__link" href="/">トップ</a></li>
+              <li class="nav__item -about"><a class="nav__link" href="/about/">アバウト</a></li>
+              <li class="nav__item -info"><a class="nav__link" href="/info/">お知らせ</a></li>
+              <li class="nav__item -contact"><a class="nav__link" href="/contact/">お問い合わせ</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div id="contents" class="contents">
+        <h2 class="title -style01">トップページ</h2>
+        <p>
+          できるだけシンプルな構成にした11ty+Gulpのスターターキット。<br />
+          GulpはSass関係と不要ファイル削除くらいしか使わず、殆どは11tyの機能のみで対応。
+        </p>
+
+        <h2 class="title -style01">全ページ一覧</h2>
+        <p class="mb20">
+          アバウトページにパンくずリストのサンプル、お知らせはページ分割のサンプルが有りマス。404を一覧に出したくない場合は、eleventyExcludeFromCollections:
+          true に。
+        </p>
+        <ol>
+          <li><a href="/404.html">404 Not Found</a></li>
+          <li><a href="/">トップページ</a></li>
+          <li><a href="/about/">アバウト</a></li>
+          <li><a href="/info/">お知らせ</a></li>
+        </ol>
+
+        <h2 class="title -style01">日付テスト</h2>
+        <p>何も指定なし：Tue Jul 19 2022 13:49:32 GMT+0900 (日本標準時)</p>
+        <p>年だけ表示：2022年</p>
+        <p>年月日を/で：2022/07/19</p>
+
+        <h2 class="title -style01">_data/news.jsonのお知らせ 3件</h2>
+        <ul>
+          <li>
+            <time>2021年09月05日</time>
+            <p>テスト用のデータです。</p>
+          </li>
+
+          <li>
+            <time>2021年09月05日</time>
+            <p>Nunjucks、11ty、Gulp、Sass辺りを使ったスターター</p>
+          </li>
+
+          <li>
+            <time>2021年09月02日</time>
+            <p>毎日寒い日が続いていますが風邪を引かないように気をつけましょう。いい天気になるといいね。</p>
+          </li>
+        </ul>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__inner">
+          <ul class="footer__menu">
+            <li><a href="/">トップ</a></li>
+            <li><a href="/privacy/">プライバシーポリシー</a></li>
+            <li><a href="/sitemap/">サイトマップ</a></li>
+          </ul>
+          <p class="footer__copyright" lang="en"><small>Copyright © 2022 siteName All Right Reserved.</small></p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="/assets/js/main.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxxxx-x"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-xxxxxxxx-x");
+    </script>
+  </body>
+</html>
